@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --theme-color: rgb(220, 94, 94);
+    --hover-color: rgb(163, 114, 114);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Roboto, Arial, sans-serif;
+    /*background: rgba(0, 0, 0, 0.8);*/
+    position: relative;
+    display: block;
+    height: 3000px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
